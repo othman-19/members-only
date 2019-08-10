@@ -18,7 +18,7 @@
 
 3. Navigate to the cloned repository.
 
-4. In the terminal cd into re-former.
+4. In the terminal cd into members-only.
 
 5. Install bundle by typing `bundle install` and update it by typing `bundle update` in the terminal.
 
