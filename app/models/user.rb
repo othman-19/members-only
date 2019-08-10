@@ -7,8 +7,7 @@ class User < ApplicationRecord
   validates :email, presence: true
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }
-
-  
+  has_many :posts
 
   def User.new_token
     SecureRandom.urlsafe_base64
