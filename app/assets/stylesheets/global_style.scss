@@ -35,11 +35,12 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
+  font-size: 3.5em;
+  letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -65,13 +66,13 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: rgb(241, 139, 139);
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: rgb(241, 50, 50);
     text-decoration: none;
   }
 }
@@ -152,7 +153,7 @@ aside {
 /* forms */
 
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid rgb(201, 194, 194);
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -211,13 +212,13 @@ input {
   }
   
   #title {
-    border-bottom: 1px solid rgb(226, 220, 220);;
+    border-bottom: 1px solid rgb(226, 220, 220);
     text-align: center;
     font-weight: bold;
     font-size: 17px;
   }
   
   #body {
-    border-bottom: 1px solid #rgb(226, 220, 220);
+    border-bottom: 1px solid rgb(226, 220, 220);
     padding-bottom: 15px;
   }
