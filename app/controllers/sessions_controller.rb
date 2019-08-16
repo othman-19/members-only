@@ -12,7 +12,8 @@ class SessionsController < ApplicationController
     end
   end
 
-  def delete
+  def destroy
     logout
+    redirect_to posts_path
   end
 end
