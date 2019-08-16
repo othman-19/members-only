@@ -15,6 +15,7 @@
       <%= f.password_field :password, class: 'form-control' %>
 
       <%= f.submit "Log in", class: "btn btn-primary" %>
+      <span>not a member? <%= link_to "sign up" , new_user_path %></span>
     <% end %>
     </div>
   </div>
